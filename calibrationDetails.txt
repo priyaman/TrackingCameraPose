@@ -1,0 +1,39 @@
+C:\Eclipse_workspaces\Python\OpenCV>python calibrate.py "./phoneCalib/*.jpg"
+processing ./phoneCalib\IMG_20150219_114029.jpg... ok
+processing ./phoneCalib\IMG_20150219_114032.jpg... ok
+processing ./phoneCalib\IMG_20150219_114038.jpg... ok
+processing ./phoneCalib\IMG_20150219_114045.jpg... chessboard not found
+processing ./phoneCalib\IMG_20150219_114051.jpg... ok
+processing ./phoneCalib\IMG_20150219_114100.jpg... ok
+processing ./phoneCalib\IMG_20150219_114105.jpg... ok
+processing ./phoneCalib\IMG_20150219_114107.jpg... ok
+processing ./phoneCalib\IMG_20150219_114110.jpg... ok
+processing ./phoneCalib\IMG_20150219_114112.jpg... ok
+RMS: 1.19832285235
+camera matrix:
+[[  1.67607425e+03   0.00000000e+00   9.64522959e+02]
+ [  0.00000000e+00   1.67925969e+03   5.42528220e+02]
+ [  0.00000000e+00   0.00000000e+00   1.00000000e+00]]
+distortion coefficients:  [ -2.08335672e-03   5.02322746e-01  -3.86138231e-03
+1.10483536e-03
+  -1.43355634e+00]
+  
+  
+  
+C:\Eclipse_workspaces\Python\OpenCV>python calibrate.py "./laptopCalib/*.jpg"
+processing ./laptopCalib\WIN_20150219_004450.JPG... ok
+processing ./laptopCalib\WIN_20150219_004501.JPG... ok
+processing ./laptopCalib\WIN_20150219_004505.JPG... ok
+processing ./laptopCalib\WIN_20150219_004514.JPG... ok
+processing ./laptopCalib\WIN_20150219_004534.JPG... ok
+processing ./laptopCalib\WIN_20150219_004537.JPG... ok
+RMS: 1.00105740235
+camera matrix:
+[[ 923.4864588     0.          639.97338971]
+ [   0.          925.46912876  383.3496635 ]
+ [   0.            0.            1.        ]]
+distortion coefficients:  [ 0.01298799 -0.25208496 -0.00789618  0.00337881  0.24
+787814]
+
+  
+  
